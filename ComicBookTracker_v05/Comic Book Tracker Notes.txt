@@ -1,0 +1,18 @@
+In order to update list with new comic Run
+step1: 
+	add comic title run + year to enum in ComicTitle.h
+
+step2:
+	update getComicTitle() function from ComicTitle.cpp
+with new comic book title run + year to return title as a 
+string for class Comic from Comic.h
+
+step3:
+	update getTotalNumOfIssues() function from
+ComicDetails.cpp with new comic book title + year and
+add latest issue read or obtained.
+
+step4:
+	update loop that sets Comic data in Main.cpp with
+possible missing issues to date.
+	
